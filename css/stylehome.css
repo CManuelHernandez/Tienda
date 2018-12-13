@@ -1,0 +1,106 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+margin:0px;
+padding:0px;
+font-family:Arial, Helvetica, sans-serif;
+font-size: 100%;
+}
+/* ------- ESPECIFICACIONES GENERALES------ */
+body{
+  background-image: url("../img/fondoh2.png");
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* ------- ESPECIFICACIONES DE EL LOGO------ */
+#logo{
+  width: 100%;
+  margin: 1%;
+  position: absolute;
+  left: 2%;
+}
+/* ------- ESPECIFICACIONES DE EL BOTON DE CONTACTO------ */
+#accesos{
+  margin: 1%;
+  position: absolute;
+  left: 90%;
+  color: #fff;
+
+}
+#accesos nav ul{
+  list-style: none;
+}
+#accesos nav ul li{
+  display: inline;
+  width: 100%;
+  margin-bottom: 5px;
+}
+#accesos nav ul li a{
+  display: inline-block;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  transition: .4s;
+}
+/* ------- ESPECIFICACIONES DE EL BOTON DE INICIO------ */
+#botoninicio{
+  position: absolute;
+  top: 60%;
+}
+
+nav{
+  width: 100%;
+}
+nav ul {
+  list-style-type:none;
+  }
+    nav ul li {
+  		margin:2%;
+	}
+  .boton_menu{
+    width:80px;
+    height:19px;
+    text-decoration: none;
+    padding: 5%;
+    font-size: 20px;
+    color: #fff;
+    background-color: #c6c2b6;
+    border: 2px solid #fff;
+    border-radius: 6px;
+}
+  .boton_menu:hover{
+    color: #000;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+/* ------- RESPONSIVE ------- */
+
+@media screen and (max-width:960px) {
+
+    #accesos{
+      left: 88%;
+}
+
+@media screen and (max-width:700px) {
+
+    #accesos{
+      left: 85%;
+}
+@media screen and (max-width:570px) {
+
+    #accesos{
+        left: 82%;
+}
+@media screen and (max-width:450px) {
+
+    #accesos{
+        left: 78%;
+}

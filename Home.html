@@ -1,0 +1,106 @@
+<!DOCTYPE html >
+<html lang="es">
+<head>
+  <title>BirraSaurio - HOME</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="shortcut icon" href="img/bsicon.png">
+  <script>
+  function vibrar ()
+  {
+    var patron=[100];
+    window.navigator.vibrate(patron);
+  }
+  </script>
+</head>
+<body>
+
+<header>
+  <!-- Cabezera de la Página -->
+<div class="jumbotron">
+  <img src="img/eslogan.jpg" alt="Eslogan de BirraSaurio" class="img-responsive" title="BirraSaurio Apasionadamente Cervezeros">
+</div>
+</header>
+<!-- Fin Cabezera de la Página -->
+<nav class="navbar navbar-inverse">
+  <!-- Menu Hamburguer de la Página -->
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><img src="img/bsicon.png" alt="Logo BirraSaurio" title="BirraSaurio"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="home.html">Home</a></li>
+        <li><a href="productos.html">Productos a la venta</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <!-- Este vibrara en aplicacones movil al marcarlo -->
+        <li><a href="#" onclick="vibrar();">Vibración para Móvil</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Usuario</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Carrito</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- Fin Menu Hamburguer de la Página -->
+<div class="container-fluid text-center">
+  <!-- Contenido de Home -->
+  <div class="row content">
+    <div class="col-sm-7 text-left">
+      <h1>Bienvenido a BirraSaurio</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+        qui officia deserunt mollit anim id est laborum consectetur adipiscing
+        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+        ut aliquip ex ea commodo consequat.</p>
+      <hr>
+<img src="img/abre.jpg" alt="Eslogan de BirraSaurio" class="img-responsive" title="Bienvenido a BirraSaurio">
+      <h3>Test</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+        qui officia deserunt mollit anim id est laborum consectetur adipiscing
+        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+        ut aliquip ex ea commodo consequat.
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa
+       qui officia deserunt mollit anim id est laborum consectetur adipiscing
+       elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    <!-- Sección publicitaria del Home -->
+    <div class="col-sm-5 sidenav">
+      <div class="well">
+        <a href="https://institutotecnologico.telefonica.com/home"><img src="img/telefonica.gif" alt="Banner de Publicidad" title="Ofertas Instituto Tecnologico Telefonica"></a>
+      </div>
+      <div class="well">
+        <a href="http://madridoktoberfest.es/"><img src="img/oktober.jpg" alt="Banner de Publicidad" title="Ofertas Oktoberfest"></a>
+      </div>
+    </div>
+    </div>
+      <!-- Fin Sección publicitaria del Home -->
+    <!-- Fin Contenido de Home -->
+  <footer class="container-fluid text-center">
+    <!-- Sección del pie de página -->
+    <form class="form-inline">Para más detalles:
+      <input type="email" class="form-control" size="50" placeholder="Introduce dirección Email">
+      <button type="button" class="btn btn-info">Registrarse</button>
+      <p><small>Derechos reservados Carlos Manuel Hernández Montero</small></p>
+    </form>
+  </footer>
+  <!-- Fin Sección del pie de página -->
+</body>
+</html>
